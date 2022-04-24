@@ -33,7 +33,7 @@
             <fileset dir="${diretorio-compilacao}" />
         </jar>
 
-        <jar destfile="${diretorio-executavel}/ast.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="${diretorio-executavel}/generate_ast.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Main-Class" value="dev.neypinheiro.tool.GenerateAst" />
                 <attribute name="Class-Path" value="." />
